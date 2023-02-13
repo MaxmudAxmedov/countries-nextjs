@@ -63,6 +63,7 @@ export default function Home({ data }) {
 
         <section className={stylesCounter.counterSection}>
           <div className='container'>
+          
             <ul className={stylesCounter.list}>
               {
                 data.length === 0 ? (<h2>Loading...</h2>) : (
